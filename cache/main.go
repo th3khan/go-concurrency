@@ -65,6 +65,6 @@ func main() {
 		if err != nil {
 			panic(err)
 		}
-		fmt.Printf("%d: %d t: %s \n", v, value, time.Since(start))
+		fmt.Printf("Key %d, Value: %d, time: %s \n", v, value, time.Since(start))
 	}
 }
